@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+   
+
+
+}
+
+body {
+    display: flex;
+    justify-content: first baseline;
+    margin-left: 180px;
+    align-items: center;
+    min-height: 110vh;
+    background-image: url(currencyconvert.jpg);
+    object-fit: cover;
+ 
+}
+
+.container {
+    background-color: transparent;
+    border-radius: 10px;
+    width: 240px;
+    height: 330px;
+    padding: 15px;
+
+}
+
+form {
+    padding: 5px;
+    margin-top: 15px;
+    
+}
+
+form select,
+button,
+input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+   
+}
+
+form input {
+    border: 1px solid white;
+    font-size: 10px;
+    height: 1.5rem;
+    padding-left: 0.3rem;
+    background-color: transparent;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1.5rem;
+    background-color: transparent;
+
+
+}
+
+select {
+    background-color: transparent;
+
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+option {
+    background-color: inherit;
+    color: black;
+
+}
+
+
+.dropdown i {
+    font-size: 1.2rem;
+    margin-top: 0.6rem;
+}
+
+.container img {
+    max-width: 2rem;
+}
+
+.select-container {
+    display: flex;
+    justify-content: space-around;
+    width: 5rem;
+    border-radius: 5px;
+}
+
+.select-container select {
+    font-size: 1rem;
+    width: auto;
+}
+
+.msg {
+    padding: 8px;
+    margin-top: 8px;
+}
+
+button {
+    background-color: aquamarine;
+    height: 1.8rem;
+    font-weight: bold;
+    color: white;
+    margin-top: 1rem;
+
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(49, 49, 204);
+}
